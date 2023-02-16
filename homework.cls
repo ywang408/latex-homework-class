@@ -154,8 +154,8 @@
     % Setup header
     \setlength{\headheight}{15.2pt}
     \setlength{\headsep}{0.2in}
-    \lhead{\hwclass{} \hwlecture\hwsection}%
-    \chead{\hwname{} (\hwemail)}%
+    \lhead{\hwclass{}}%
+    % \chead{\hwname{} (\hwemail)}%
     \rhead{\hwtype{} \hwnum}%
 
     % Setup hrule in header
@@ -168,7 +168,7 @@
     \begin{center}
       {\Large \hwclass{} \hwtype{} \hwnum}
 
-      \hwname{} (\hwemail)
+      \hwname{} %(\hwemail)
 
       \today
     \end{center}
@@ -185,7 +185,7 @@
     \begin{center}
       {\Large \hwclass{} \hwtype{} \hwnum}
 
-      \hwname{} (\hwemail)
+      \hwname{} %(\hwemail)
 
       \today
     \end{center}
